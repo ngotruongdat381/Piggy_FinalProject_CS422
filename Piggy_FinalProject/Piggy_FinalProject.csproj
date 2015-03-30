@@ -94,6 +94,16 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Database\Category.cs" />
+    <Compile Include="Database\DBContext.cs" />
+    <Compile Include="Database\Global.cs" />
+    <Compile Include="Database\Method.cs" />
+    <Compile Include="Database\Reminder.cs" />
+    <Compile Include="Database\ReminderType.cs" />
+    <Compile Include="Database\SavingPlan.cs" />
+    <Compile Include="Database\Transaction.cs" />
+    <Compile Include="Database\TransactionType.cs" />
+    <Compile Include="Database\Wallet.cs" />
     <Compile Include="LocalizedStrings.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -141,6 +151,7 @@
     <Content Include="Assets\Tiles\IconicTileSmall.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Database\Ref.txt" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\AppResources.resx">
@@ -155,7 +166,6 @@
     <Resource Include="hand132.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Database\" />
     <Folder Include="Pages\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />

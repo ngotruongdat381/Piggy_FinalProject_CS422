@@ -7,6 +7,7 @@ using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using Piggy_FinalProject.Resources;
+using Piggy_FinalProject.Database;
 
 namespace Piggy_FinalProject
 {
@@ -54,7 +55,12 @@ namespace Piggy_FinalProject
                 // and consume battery power when the user is not using the phone.
                 PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Disabled;
             }
-
+            
+            using (DBContext context = new DBContext(DBContext.DBConnectionString))
+            {
+                if (!context.DatabaseExists())
+                    context.CreateDatabase();
+            }
         }
 
         // Code to execute when the application is launching (eg, from Start)

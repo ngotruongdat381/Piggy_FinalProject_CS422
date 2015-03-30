@@ -17,3 +17,5 @@ E:\Projects\C#\Piggy_FinalProject\Piggy_FinalProject\obj\Debug\Piggy_FinalProjec
 E:\Projects\C#\Piggy_FinalProject\Piggy_FinalProject\obj\Debug\Piggy_FinalProject.dll
 E:\Projects\C#\Piggy_FinalProject\Piggy_FinalProject\obj\Debug\Piggy_FinalProject.pdb
 E:\Projects\C#\Piggy_FinalProject\Piggy_FinalProject\obj\Debug\XapCacheFile.xml
+E:\Projects\C#\Piggy_FinalProject\Piggy_FinalProject\Bin\Debug\Microsoft.Expression.Drawing.dll
+E:\Projects\C#\Piggy_FinalProject\Piggy_FinalProject\obj\Debug\Piggy_FinalProject.csprojResolveAssemblyReference.cache
